@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:EstrazioneLettere"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="btnStart">
+
+        <!--Bottoni-->
+        <Button Content="Inizia" HorizontalAlignment="Left" Margin="477,289,0,0" VerticalAlignment="Top" Height="71" Width="175" Click="Button_ClickInizia" FontSize="24"/>
+        <Button x:Name="btnEstraiLettera" Content="Estrai" HorizontalAlignment="Left" Margin="46,271,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickEstrai" FontSize="24"/>
+
+        <!--Label-->
+        <Label x:Name="lblLettera" Content="A" HorizontalAlignment="Left" Margin="71,87,0,0" VerticalAlignment="Top" Height="99" Width="135" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <TextBox x:Name="txtParola" HorizontalAlignment="Left" Margin="277,100,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" IsEnabled="False" Width="209" Height="74" FontSize="24"/>
+        <ListBox x:Name="lstParole"  Margin="491,55,29,216"/>
+
 
     </Grid>
 </Window>
