@@ -1,7 +1,7 @@
-﻿<Application x:Class="Esercitazione_su_programmazione_asincrona.App"
+﻿<Application x:Class="EstrazioneLettere.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:Esercitazione_su_programmazione_asincrona"
+             xmlns:local="clr-namespace:EstrazioneLettere"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          

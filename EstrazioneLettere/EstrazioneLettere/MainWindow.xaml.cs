@@ -9,7 +9,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Esercitazione_su_programmazione_asincrona
+namespace EstrazioneLettere
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

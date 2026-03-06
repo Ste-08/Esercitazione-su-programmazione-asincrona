@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace Esercitazione_su_programmazione_asincrona
+namespace EstrazioneLettere
 {
     /// <summary>
     /// Interaction logic for App.xaml
