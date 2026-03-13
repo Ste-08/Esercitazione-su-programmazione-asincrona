@@ -11,21 +11,22 @@
         <!--Bottoni-->
         <Button Content="Inizia" HorizontalAlignment="Left" Margin="46,328,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickInizia" FontSize="24"/>
         <Button x:Name="btnEstraiLettera" Content="Estrai" HorizontalAlignment="Left" Margin="46,217,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickEstrai" FontSize="24"/>
-        <Button x:Name="btnPiuCaratteri" Content="+" HorizontalAlignment="Left" Margin="370,334,0,0" VerticalAlignment="Top" Height="40" Width="66" Click="btnPiuCaratteri_Click" FontSize="24"/>
-        <Button x:Name="btnMenoCaratteri" Content="-" HorizontalAlignment="Left" Margin="475,334,0,0" VerticalAlignment="Top" Height="40" Width="71" Click="btnMenoCaratteri_Click" FontSize="24"/>
+        <Button x:Name="btnPiuCaratteri" Content="+" HorizontalAlignment="Left" Margin="282,320,0,0" VerticalAlignment="Top" Height="40" Width="66" Click="btnPiuCaratteri_Click" FontSize="24"/>
+        <Button x:Name="btnMenoCaratteri" Content="-" HorizontalAlignment="Left" Margin="388,320,0,0" VerticalAlignment="Top" Height="40" Width="70" Click="btnMenoCaratteri_Click" FontSize="24"/>
 
         <!--Label-->
-        <Label x:Name="lblLettera" Content="A" HorizontalAlignment="Left" Margin="71,45,0,0" VerticalAlignment="Top" Height="99" Width="135" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
-        <Label Content="Numero caratteri da estrarre" HorizontalAlignment="Left" Margin="350,227,0,0" VerticalAlignment="Top" Height="35" Width="216" FontSize="16"/>
+        <Label x:Name="lblLettera" Content="A" HorizontalAlignment="Left" Margin="71,58,0,0" VerticalAlignment="Top" Height="99" Width="135" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label Content="Numero caratteri da estrarre" HorizontalAlignment="Left" Margin="262,213,0,0" VerticalAlignment="Top" Height="35" Width="216" FontSize="16"/>
         <Label Content="Caratteri per parola" HorizontalAlignment="Left" Height="30" Margin="293,23,0,0" VerticalAlignment="Top" Width="155" FontSize="16"/>
-        <Label Content="Carattere" HorizontalAlignment="Left" Height="30" Margin="100,15,0,0" VerticalAlignment="Top" Width="76" FontSize="16"/>
+        <Label Content="Carattere" HorizontalAlignment="Left" Height="30" Margin="100,23,0,0" VerticalAlignment="Top" Width="76" FontSize="16"/>
 
         <!--List box-->
-        <ListBox x:Name="lstParole"  Margin="510,25,10,246" FontSize="16"/>
+        <ListBox x:Name="lstParole"  Margin="510,25,10,32" FontSize="16"/>
 
         <!--Text box-->
         <TextBox x:Name="txtParola" HorizontalAlignment="Left" Margin="266,70,0,0" TextWrapping="Wrap" Text="Vuoto" VerticalAlignment="Top" IsEnabled="False" Width="209" Height="74" FontSize="24" Foreground="Black" />
-        <TextBox x:Name="txtNumeroCaratteri" HorizontalAlignment="Left" Margin="370,282,0,0" TextWrapping="Wrap" IsEnabled="True" Text="5" VerticalAlignment="Top" Width="176" Height="38" FontSize="24" TextChanged="txtNumeroCaratteri_TextChanged"/>
+        <TextBox x:Name="txtNumeroCaratteri" HorizontalAlignment="Left" Margin="282,268,0,0" TextWrapping="Wrap" IsEnabled="True" Text="5" VerticalAlignment="Top" Width="176" Height="38" FontSize="24" TextChanged="txtNumeroCaratteri_TextChanged"/>
+        <Rectangle HorizontalAlignment="Left" Height="99" Margin="73,58,0,0" Stroke="Black" VerticalAlignment="Top" Width="130"/>
 
     </Grid>
 </Window>
