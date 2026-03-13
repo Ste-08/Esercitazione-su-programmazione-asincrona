@@ -9,10 +9,10 @@
     <Grid x:Name="btnStart">
 
         <!--Bottoni-->
-        <Button Content="Inizia" HorizontalAlignment="Left" Margin="46,328,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickInizia" FontSize="24"/>
-        <Button x:Name="btnEstraiLettera" Content="Estrai" HorizontalAlignment="Left" Margin="46,217,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickEstrai" FontSize="24"/>
-        <Button x:Name="btnPiuCaratteri" Content="+" HorizontalAlignment="Left" Margin="282,320,0,0" VerticalAlignment="Top" Height="40" Width="66" Click="btnPiuCaratteri_Click" FontSize="24"/>
-        <Button x:Name="btnMenoCaratteri" Content="-" HorizontalAlignment="Left" Margin="388,320,0,0" VerticalAlignment="Top" Height="40" Width="70" Click="btnMenoCaratteri_Click" FontSize="24"/>
+        <Button Content="Inizia" HorizontalAlignment="Left" Margin="46,328,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickInizia" FontSize="24" Background="#FF17E3E8"/>
+        <Button x:Name="btnEstraiLettera" Content="Estrai" HorizontalAlignment="Left" Margin="46,217,0,0" VerticalAlignment="Top" Height="89" Width="185" Click="Button_ClickEstrai" FontSize="24" Background="#FF1BA6FF"/>
+        <Button x:Name="btnPiuCaratteri" Content="+" HorizontalAlignment="Left" Margin="282,320,0,0" VerticalAlignment="Top" Height="40" Width="66" Click="btnPiuCaratteri_Click" FontSize="24" Background="#FF00C100"/>
+        <Button x:Name="btnMenoCaratteri" Content="-" HorizontalAlignment="Left" Margin="388,320,0,0" VerticalAlignment="Top" Height="40" Width="70" Click="btnMenoCaratteri_Click" FontSize="26" Background="#FFF10000"/>
 
         <!--Label-->
         <Label x:Name="lblLettera" Content="A" HorizontalAlignment="Left" Margin="71,58,0,0" VerticalAlignment="Top" Height="99" Width="135" FontSize="24" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>

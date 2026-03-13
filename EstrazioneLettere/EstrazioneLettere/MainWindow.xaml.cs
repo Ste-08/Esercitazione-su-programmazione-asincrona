@@ -8,7 +8,7 @@ namespace EstrazioneLettere
     /// </summary>
     public partial class MainWindow : Window
     {
-        char[] _alfabeto = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' };
+        char[] _alfabeto = new char[] { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z' }; //Alfabeto
 
         string _parola = ""; //Parola che si forma con le lettere estratte
 
@@ -46,7 +46,7 @@ namespace EstrazioneLettere
 
                 txtParola.Clear();
 
-                txtParola.Text = _parola.ToString(); //Aggiorno il textbox con la parola formata dalle lettere estratte
+                txtParola.Text = _parola; //Aggiorno il textbox con la parola formata dalle lettere estratte
 
                 if (_parola.Length >= _numeroCaratteri) //Capisco se la parola ha raggiunto il numero di caratteri da estrarre desiderato
                 {
